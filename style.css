@@ -1,0 +1,64 @@
+*, html
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(bg.jpg);
+    background-size: 58rem;
+    background-color: #adabca62;
+}
+
+nav
+{
+    background-color: rgb(182, 182, 182);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav img
+{
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #191919;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+nav ul li a:hover
+{
+    color: rgb(192, 98, 9);
+    border-bottom: 1px solid rgb(192, 98, 9);
+}
+
+.profile-name {
+    font-family: sans-serif;
+    color: #191919;
+    font-weight: 600;
+    font-size: 80%;
+}
