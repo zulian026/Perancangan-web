@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Cascade</title>
+  <style>
+    /* Don't change the existing CSS. */
+.box {
+  background-color: blue;
+  padding: 10px
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+#outer-box{
+  border-style: solid;
+  border-color: purple;
+  border-width: 10px;
+}
+
+.inner-box{
+background-color: rgb(236, 0, 0);
+}
+
+.white-text{
+  color: white;
+}
+
+
+  </style>
+
+</head>
+
+<body>
+  <div id="outer-box" class="box">
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
